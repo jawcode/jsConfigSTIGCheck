@@ -29,7 +29,9 @@ Example 1: To search for 'service timestamps log datetime localtime', the SCAP t
 
 Example 2: To check if every applicable interface has 'switchport access vlan 1000', the SCAP text would be '#finterface Gig.*/0/##switchport access vlan 1000'.
 
-Example 3: To ensure that only one local user exists, the SCAP text would be '#c#cusername.*##1' (for two users, the ##1 would be changed to ##2).
+Example 3: To ensure that only one local user exists, the SCAP text would be '#cusername.*##1' (for two users, the ##1 would be changed to ##2).
+
+Example 4: For a non-applicable STIG Rule, the SCAP text would simply be '#n'.
 
 # Licensing
 This script is Public Domain
